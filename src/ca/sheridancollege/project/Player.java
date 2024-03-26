@@ -31,7 +31,6 @@ public abstract class Player {
     }
 
     public void play(Scanner scanner) {
-        // Implement the play logic here using the scanner for player input
     }
 
     public abstract void declareWinner();
@@ -40,30 +39,23 @@ public abstract class Player {
             return hand; 
         }
         public abstract class Game {
-            // ... existing fields ...
         
             private final Scanner inputScanner = new Scanner(System.in);
         
-            // ... existing methods ...
         
             public Scanner getInputScanner() {
                 return inputScanner;
             }
         
-            // ... rest of the Game class ...
         }
-
-            // other fields and methods
         
-            private Scanner inputScanner = new Scanner(System.in);
+            private final Scanner inputScanner = new Scanner(System.in);
         
             // Getter method for inputScanner
             public Scanner getInputScanner() {
                 return inputScanner;
             }
-        
-            // other fields and methods
-        }
+                }
         
                 
     
